@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('layouts.default',['titre'=>'about'])
 @section('content')
 <div class="container">
 <div >
@@ -13,7 +13,7 @@ this app has been buit by <a href="https://www.facebook.com/mariem.ben.yahya1996
 </p>
 </div>
 </div>
-<p>Feel free to help to improve the <a href="#">
+<p>Feel free to help to improve the <a href="https://github.com/mariemby/laracarte-tdn">
 source code</a>.</p>
 <hr>
 <h2>What is laramap?</h2>
